@@ -1,3 +1,3 @@
 # khalili.cf
 Files For Khalili.cf's Official Website. 
-.. image:: https://img.shields.io/github/license/SahalDev/khalili.cf?style=for-the-badge   :alt: GitHub
+<img alt="GitHub" src="https://img.shields.io/github/license/SahalDev/khalili.cf?style=for-the-badge">
