@@ -1,69 +1,76 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>pixelDev | Coming Soon</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
-	
-	<link href="common-css/ionicons.css" rel="stylesheet">
-			
-	<link href="asset/css/styles.css" rel="stylesheet">
-	
-	<link href="asset/css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<div class="main-area">
-		<div class="container full-height position-static">
-			
-			<section class="left-section full-height">
-		
-				<a class="logo" href="#"><img src="images/logo_trans.png" alt="Logo"></a>
-				
-				<div class="display-table">
-					<div class="display-table-cell">
-						<div class="main-content">
-							<h1 class="title"><b>Coming Soon</b></h1>
-							<p>Our website is currently undergoing lots of changes.
-								We Should be back shortly. Thank you for your patience.</p>							
-						</div><!-- main-content -->
-					</div><!-- display-table-cell -->
-				</div><!-- display-table -->
-		
-			</section><!-- left-section -->
-		
-			<section class="right-section" style="background-image: url(images/carbon.png)">
-				
-			</section><!-- right-section -->
-		
-		</div><!-- container -->
-	</div><!-- main-area -->
-	
-	<!-- SCRIPTS -->
-	
-	<script src="common-js/jquery-3.1.1.min.js"></script>
-	
-	<script src="common-js/tether.min.js"></script>
-	
-	<script src="common-js/bootstrap.js"></script>
-		
-	<script src="common-js/jquery.knob.js"></script>
-	
-	<script src="common-js/jquery.throttle.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
-	
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pixelDev</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ICONS BOXICONS -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- ===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="https://github.com/pixdevgithub/pixdev.gq" class="nav__logo">pixelDev</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="https://www.youtube.com/channel/UCunnI_RrsSJ86R-momnj5-w" class="nav__link">Youtube</a></li>
+                        <li class="nav__item"><a href="./e.txt" class="nav__link">Discord Server (Coming Soon)</a></li>
+                        <li class="nav__item"><a href="https://link.pixdev.gq/github" class="nav__link">Github</a></li>
+                        <li class="nav__item"><a href="./pls no read me.txt" class="nav__link">Do Not Click Me Please</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- ===== HOME =====-->
+            <div class="home">
+                <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+                <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+                <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+                <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+                <h1 class="parallax home__title" data-rellax-speed="-6">pixelDev</h1>
+                <span class="parallax home__subtitle" data-rellax-speed="-5">pixelDev Is All About Providing The Best Tutorials For People With Knowledge Of Any Level Of Computer Science.</span> 
+
+                <div class="home__scroll">
+                   <a href="#section"><i class='bx bx-mouse'></i></a>
+                </div>
+            </div>
+
+            <!-- ===== SECTION =====-->
+            <section class="l-section" id="section">
+                <div class="section">
+                    <div class="section__data">
+                        <h2 class="section__title">About pixelDev</h2>
+                        <p class="section__text">pixelDev Is All About Providing The Best Tutorials For People With Knowledge Of Any Level Of Computer Science. This  Include Programming, Video Editing, Photoshop And So On... We Are A Open Community Which Means You Can Join Us At pixelDev And Provide Any Kind Of Content Related To Technology.</p>
+                    </div>
+        
+                    <img src="assets/img/banner.png" alt="" class="section__img">
+                </div>
+            </section>
+        </main>
+
+        <!-- RELLAX JS -->
+        <script src="assets/js/rellax.min.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
 </html>
