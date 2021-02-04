@@ -251,23 +251,31 @@ section .container > *{
         width: 5rem;
         height: 100vh;
     }
+
+    .navbar::before {
+        width: 56rem;
+    }
     
     .navbar:hover {
-        width: 6rem;
+        width: 56rem;
+        display: flex;
     }
     
     .navbar:hover .link-text {
-        display: inline;
+        display: none;
+        position: fixed;
     }
     
     .navbar:hover .logo svg
     {
         margin-left: 11rem;
+        position: fixed;
     }
     
     .navbar:hover .logo-text
     {
         left: 0px;
+        display: none;
     }
 }
 
