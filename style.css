@@ -175,7 +175,7 @@ section .container > *{
 
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
-    background: #141418;
+    background: #011627;
     color: #ececec;
 }
 
