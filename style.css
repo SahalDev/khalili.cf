@@ -245,6 +245,30 @@ section .container > *{
     section .container{
         grid-template-columns: 1fr;
     }
+
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    
+    .navbar:hover {
+        width: 6rem;
+    }
+    
+    .navbar:hover .link-text {
+        display: inline;
+    }
+    
+    .navbar:hover .logo svg
+    {
+        margin-left: 11rem;
+    }
+    
+    .navbar:hover .logo-text
+    {
+        left: 0px;
+    }
 }
 
 @media(max-width: 600px){
@@ -258,5 +282,27 @@ section .container > *{
 
     .title{
         font-size: 1.2rem;
+    }
+
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+    }
+    
+    .nav-link {
+        justify-content: center;
+    }
+    
+    main {
+        margin: 0;
     }
 }
