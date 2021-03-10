@@ -11,7 +11,7 @@ export const logCredits = () => {
     ].join(";");
 
     return console.log(
-        `%c https://pixdev.gq/DONOOTREADME.txt ${pieceEmoji}`,
+        `%c https://pixdev.gq/DONOTREADME.txt ${pieceEmoji}`,
         logStyle
     );
 };
