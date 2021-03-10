@@ -1,7 +1,7 @@
 import { primary } from "../components/theme/Themes";
 
 export const logCredits = () => {
-    const pieceEmoji = String.fromCodePoint(0x270c);
+    const pieceEmoji = String.fromCodePoint(0x1F606);
 
     const logStyle = [
         `color: ${primary}`,
@@ -11,7 +11,7 @@ export const logCredits = () => {
     ].join(";");
 
     return console.log(
-        `%c © ${new Date().getFullYear()} github.com/pixdevgithub ${pieceEmoji}`,
+        `%c https://pixdev.gq/DONOOTREADME.txt ${pieceEmoji}`,
         logStyle
     );
 };
