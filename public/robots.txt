@@ -1,0 +1,3 @@
+Sitemap: https://pixdev.gq/sitemap.xml
+User-agent: *
+Disallow: /test/

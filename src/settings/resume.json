@@ -1,0 +1,49 @@
+{
+    "basics": {
+        "name": "pixelDev",
+        "label": "Tutorials On Computer Science",
+        "email": "hello@pixdev.gq",
+        "phone": "",
+        "picture": "",
+        "x_title": "",
+        "job": "Providing Tutorials On",
+        "description": "pixelDev Is All About Providing The Best Tutorials For People With Knowledge Of Any Level Of Computer Science.",
+        "summary": "based in UAE",
+        "keywords": "sahal,sulayman,Sahal,Sulayman,PixelDev,pixelDev,pixeldev",
+        "url": "https://pixdev.gq",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "",
+            "country": "Computer Science.",
+            "countryCode": "",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "Email",
+                "username": "hello@pixdev.gq",
+                "url": "mailto:hello@pixdev.gq",
+                "x_icon": "far fa-envelope"
+            },
+            {
+                "network": "GitHub",
+                "username": "pixdevgithub",
+                "url": "https://github.com/pixdevgithub",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "YouTube",
+                "username": "pixelDev",
+                "url": "https://www.youtube.com/channel/UCunnI_RrsSJ86R-momnj5-w",
+                "x_icon": "fab fa-youtube"
+            },
+            {
+                "network": "Discord",
+                "username": "Discord Server",
+                "url": "https://link.pixdev.gq/discord",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    }
+}
