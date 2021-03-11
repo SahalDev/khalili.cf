@@ -11,6 +11,8 @@ This Website Is A Highly Modified Version Of [JoHoop's React Personal Website Te
 
 ## Available Scripts
 
+You Need [NodeJS](https://nodejs.org/en/) For Running Or Building The Project
+
 In The Project Directory, You Can Run:
 
 ### `npm install`
