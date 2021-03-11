@@ -1,7 +1,7 @@
 import { primary } from "../components/theme/Themes";
 
 export const logCredits = () => {
-    const pieceEmoji = String.fromCodePoint(0x1F606);
+    const pieceEmoji = String.fromCodePoint(0x1F60F);
 
     const logStyle = [
         `color: ${primary}`,
